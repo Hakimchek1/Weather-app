@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        rel="https://fonts.googleleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;908&family=Roboto:whtg@300;400;500;600;700;909display=smap"
+        href="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Wether</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="search-box">
+            <i class="fa-solid fa-location-dot"></i>
+            <img src="image/map.png" style="width: 30px;" alt=""> <input type="text" placeholder="Enter your location">
+            <button class="fa-solid fa magnifying-glass">ok</button>
+        </div>
+
+        <div class="not-found">
+            <img src="image/error.png" style="width: 100%;" alt="">
+            <p>Oops! Invalid location :/</p>
+        </div>
+
+        <div class="wether-box">
+            <img src="">
+            <p class="temperature"></p>
+            <p class="description"></p>
+        </div>
+
+        <div class="wether-details">
+            <div class="humidity">
+                <i class="fa-solid fa-weter"></i>
+                <div class="text">
+                    <span></span>
+                    <p>humidity</p>
+                </div>
+            </div>
+
+            <div class="wind">
+                <i class="fa-solid fa-wind"></i>
+                <div class="text">
+                    <span></span>
+                    <p>wind speed</p>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <script src="https://wit.fontawesome.com/7c8801cB17.js"
+    crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
